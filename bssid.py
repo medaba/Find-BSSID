@@ -70,10 +70,8 @@ def open_map(bssid=None):
     coordinates = get_coordinates(bssid)
     if coordinates != 'Not found':
         webbrowser.open(f'https://maps.yandex.ru/?text={coordinates}')
-        print(coordinates)
     else:
-        print(coordinates)
-
+        return coordinates
 
 
 
