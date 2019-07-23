@@ -1,2 +1,2 @@
 # Find-BSSID
-Simple script for finding BSSID at the yandex map.
+Simple script for finding Wi-Fi BSSID at the yandex map.
